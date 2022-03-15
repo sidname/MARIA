@@ -1,0 +1,137 @@
+@charset "utf-8";@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:300,500,600&display=swap');
+/* default */
+body { font-family:'Noto Serif KR', serif; } 
+#wrap { margin:0 auto; width:100%; } 
+.cont { position:relative; margin:0 auto; height:950px; min-width:1200px; } 
+
+/* header */
+header { position:fixed; right:30px; top:50%; z-index:200; margin-top:-83px; width:15px; height:165px; } 
+header>h1 { display:none; } 
+
+/* section - home*/
+.cont_home { position:relative; background-color:#3B3840; color:#fff; } 
+.cont_home h2 { padding-top:85px; margin-left:130px; font-weight:600; font-size:78px; } 
+.cont_home h2:after { content:'-'; display:block; font-size:33px; margin:40px 0; } 
+.cont_home h3 { margin:40px 0 0 130px; font-size:33px; line-height:1.7; font-weight:300; letter-spacing:-1px; } 
+.cont_home p { font-weight:normal; font-size:15px; } 
+.cont_home .writer { position:absolute; left:20px; bottom:107px; transform:rotate(90deg); } 
+.cont_home .title { position:absolute; right:80px; top:50px; } 
+.cont_home .img_bg { position:absolute; right:380px; bottom:130px; width:288px; height:288px; background-color:rgba(255,255,255,0.3); } 
+.cont_home .img { position:absolute; right:80px; top:100px; width:800px; height:600px; text-indent:-9999px; /*background-image: url(/dd/역사/01.역사.mp4); */}
+video { max-width: 100%; display: block; } 
+
+/* section - 운명의 변화*/
+.cont_0 { width:100%; background-color:#6C6675; } 
+.cont_0 .bg { position:absolute; left:50%; top:50%; margin:-400px 0 0 -600px; width:1200px; height:800px; background-color:#fff; } 
+.cont_0 .bg h2 { margin:50px; font-weight:600; font-size:56px; color:#283e50; } 
+.cont_0 .bg .slides { position:relative; overflow:hidden; margin-left:50px; width:1100px; height:580px; } 
+.cont_0 .bg .slides ul { position:absolute; left:0; top:0; width:3300px; height:580px; } 
+.cont_0 .bg .slides ul li { float:left; width:1100px; height:580px; } 
+.cont_0 .bg .slides ul li h3 { float:left; margin-right:50px; color:#283e50; font-size:38px; font-weight:500; } 
+.cont_0 .bg .slides ul li p { float:left; color:#3b3b3b; font-size:18px; line-height:1.6; } 
+.cont_0 .bg .slides ul li .img { float:left; margin-top:30px; width:1100px; height:325px; text-indent:-9999px; overflow: hidden; } 
+.viii { margin-top: -260px; } 
+.cont_0 .bg .slides ul .name .img { /*background-image:url(../images/content_1_name.jpg); */}
+.cont_0 .bg .slides ul .history .img { background-image:url(); } 
+.cont_0 .bg .slides ul .today .img { background-image:url(); } 
+.cont_0 .bg .slides ul li .txt { clear:both; height:30px; line-height:30px; color:#3b3b3b; font-size:15px; text-align:center; } 
+
+.cont_0 .bg .prev { display:block; position:absolute; left:-57px; top:50%; margin-top:-23px; width:27px; height:47px; text-indent:-9999px; background-image:url(../image/sprite_ico.png); background-position:-78px 0; } 
+.cont_0 .bg .prev:hover,.cont_0 .bg .prev:focus { background-position:-41px 0; } 
+.cont_0 .bg .next { display:block; position:absolute; right:-57px; top:50%; margin-top:-23px; width:27px; height:47px; text-indent:-9999px; background-image:url(../image/sprite_ico.png); background-position:-150px 0; } 
+.cont_0 .bg .next:hover,.cont_0 .bg .next:focus { background-position:-113px 0; } 
+
+/* section - 반복되는시간과 한정적인공간*/
+.cont_1 { background-color:#5B5763; } 
+.cont_1 .bg { position:absolute; left:50%; top:50%; margin:-400px 0 0 -600px; width:1200px; height:800px; background-color: #fff; } 
+.cont_1 .bg h2 { margin:50px; font-weight:600; font-size:56px; color:#283e50; } 
+.cont_1 .bg h3 { margin:0 0 20px 50px; color:#283e50; font-size:38px; font-weight:500; } 
+.cont_1 .bg p { margin:0 0 20px 50px; color:#3b3b3b; font-size:18px; line-height:1.6; } 
+
+.cont_1 .bg .screen { position:absolute; right:50px; top:50px; width:450px; height:485px; text-indent:-9999px; background-image:url(../image/05.역사1-3.png); } 
+.cont_1 .bg .txt { position:absolute; right:50px; top:540px; color:#3b3b3b; font-size:15px; } 
+.cont_1 .bg ul { margin:40px auto; width:1100px; } 
+
+.cont_1 .bg ul li { overflow:hidden; float:left; margin-left:10px; width:212px; border:1px solid #ededed; box-sizing:border-box; } 
+.cont_1 .bg ul li:first-child { margin-left:0; background-image:url(../image/05.역사1-2.png); } 
+.cont_1 .bg ul li:nth-child(2) { background-image:url(../image/06.역사1-2.png); } 
+.cont_1 .bg ul li:nth-child(3) { background-image:url(../image/07.역사1-2.png); } 
+.cont_1 .bg ul li:nth-child(4) { background-image:url(../image/08.역사1-2.png); } 
+.cont_1 .bg ul li:nth-child(5) { background-image:url(../image/09.역사1-2.png); } 
+.cont_1 .bg ul li a { position:relative; display:block; height:140px; text-indent:-9999px; transition:all 0.4s; } 
+.cont_1 .bg ul li a:after { content:''; display:block; position:absolute; left:0; top:0; width:210px; height:140px; background-color:rgba(0,0,0,0.5); opacity:0; transition:all 0.4s; } 
+.cont_1 .bg ul li a:hover:after,
+.cont_1 .bg ul li a:focus:after,
+.cont_1 .bg ul li.on a:after { opacity:0.6; } 
+
+/* section - 운명을 마주하기 전*/
+.cont_2 { background-color:#504B57; } 
+.cont_2 .bg { position:absolute; left:50%; top:50%; margin:-400px 0 0 -600px; width:1200px; height:800px; background-color: #fff; } 
+.cont_2 .bg h2 { margin:50px; font-weight:600; font-size:56px; color:#283e50; } 
+.cont_2 .bg h3 { margin:0 0 20px 50px; color:#283e50; font-size:38px; font-weight:500; } 
+.cont_2 .bg p { margin:0 0 20px 50px; color:#3b3b3b; font-size:18px; line-height:1.6; } 
+
+.cont_2 .bg .frame { position:absolute; right:50px; top:50px; width:550px; height:700px; background-image:url(../image/pa/cccccc.jpg); background-repeat:no-repeat; background-position:20px 0; } 
+.cont_2 .bg .frame .frame_img { position:relative; top:76px; left:97px; overflow:hidden; width:355px; height:507px; } 
+.cont_2 .bg .frame .frame_img ul { position:absolute; width:4500px; height:507px; } 
+.cont_2 .bg .frame .frame_img ul li { float: left; position: relative; right: 260px; width:900px; height:507px; } 
+.cont_2 .bg .frame .frame_img ul li:nth-child(1) { background-image:url(../image/pa/1a.mp4); } 
+.cont_2 .bg .frame .frame_img ul li:nth-child(2) { background-image:url(../image/pa/1b.mp4); } 
+.cont_2 .bg .frame .frame_img ul li:nth-child(3) { background-image:url(../image/pa/1c.mp4); } 
+.cont_2 .bg .frame .frame_img ul li:nth-child(4) { background-image:url(../image/pa/1d.mp4); } 
+.cont_2 .bg .frame .frame_img ul li:nth-child(5) { background-image:url(../image/pa/1f.mp4); } 
+.cont_2 .bg .frame .frame_img ul li a { display:block; width:450px; height:507px; text-indent:-9999px; cursor:default; } 
+.cont_2 .bg .frame .txt { position:absolute; bottom:0px; left:50%; margin-left:-275px; width:550px; color:#3b3b3b; font-size:15px; letter-spacing:-1px; text-align:center; } 
+.cont_2 .bg .prev { display:block; position:absolute; left:-57px; top:50%; margin-top:-23px; width:27px; height:47px; text-indent:-9999px; background-image:url(../image/sprite_ico.png); background-position:-78px 0; } 
+.cont_2 .bg .prev:hover,.cont_2 .bg .prev:focus { background-position:-41px 0; } 
+.cont_2 .bg .next { display:block; position:absolute; right:-57px; top:50%; margin-top:-23px; width:27px; height:47px; text-indent:-9999px; background-image:url(../image/sprite_ico.png); background-position:-150px 0; } 
+.cont_2 .bg .next:hover,.cont_2 .bg .next:focus { background-position:-113px 0; } 
+
+/* section - 마리아의 사진과 그림*/
+.cont_3 { background-color:#4B4752; } 
+.cont_3 .bg { position:absolute; left:50%; top:50%; margin:-400px 0 0 -600px; width:1200px; height:800px; background-color: #fff; } 
+.cont_3 .bg h2 { margin:50px 0 15px 50px; font-weight:600; font-size:56px; color:#283e50; } 
+.cont_3 .bg h3 { margin:0 0 10px 50px; color:#283e50; font-size:38px; font-weight:500; } 
+.cont_3 .bg p { margin:0 0 20px 50px; color:#3b3b3b; font-size:18px; line-height:1.6; } 
+
+.cont_3 .bg .gallery { position:absolute; left:50px; bottom:40px; margin:0 auto; width:1100px; } 
+.cont_3 .bg .gallery ul li { position:relative; float:left; margin-left:22px; width:352px; background-repeat:no-repeat; } 
+.cont_3 .bg .gallery ul li:first-child { margin-left:0; background-image:url(../image/pa/a1-3.jpg); } 
+.cont_3 .bg .gallery ul li:nth-child(2) { background-image:url(../image/pa/a2-3.jpg); } 
+.cont_3 .bg .gallery ul li:nth-child(3) { background-image:url(../image/pa/a3-3.png); } 
+.cont_3 .bg .gallery ul li a { display:block; height:420px; } 
+.cont_3 .bg .gallery ul li a .more { display:block; position:absolute; bottom:40px; right:15px; z-index:100; width:25px; height:23px; text-indent:-9999px; background-image: url(..image/sprite_ico.png); background-position:-188px 0; transition:all 0.3s; opacity:0.6; } 
+.cont_3 .bg .gallery ul li a:hover .more { transform:scale(1.1); opacity:1; } 
+.cont_3 .bg .gallery ul li a .txt { position:absolute; left:50%; bottom:-20px; margin-left:-175px; height:30px; width:352px; line-height:30px; color:#3b3b3b; font-size:15px; letter-spacing:-1px; text-align:center; } 
+/* gall */
+.cont_3 .bg .gall { display:none; position:fixed; z-index:300; left:0; top:0; bottom:0; right:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); } 
+.cont_3 .bg .gall .gallcontent { position:fixed; left:58%; top:66%; margin:-446px 0 0 -550px; z-index:400; width:835px; height:662px; background-repeat: no-repeat; background-position: center; } 
+.cont_3 .bg .gall .gallcontent a { display:block; width:1100px; height:800px; text-indent:-9999px; } 
+
+/* section - 가장 사랑받는 색*/
+.cont_4 { height:950px; background-color:#44404A; } 
+.cont_4 .bg { position:absolute; left:50%; top:50%; margin:-400px 0 0 -600px; width:1200px; height:800px; background-color: #fff; } 
+.cont_4 .bg h2 { margin:50px; font-weight:600; font-size:56px; color:#283e50; } 
+.cont_4 .bg h3 { margin:0 0 20px 50px; color:#283e50; font-size:38px; font-weight:500; } 
+.cont_4 .bg p { margin:0 0 20px 50px; color:#3b3b3b; font-size:18px; line-height:1.6; } 
+
+.cont_4 .bg .screen { position:absolute; right:50px; top:340px; margin:0 auto; width:1100px; height:280px; background-image:url(../image/fa2/fa1-2.jpg); text-indent:-9999px; } 
+.cont_4 .bg .txt { position:absolute; right:50px; bottom:135px; color:#3b3b3b; font-size:15px; letter-spacing:-1px; } 
+
+.cont_4 .bg .thumb { position:absolute; right:50px; bottom:50px; margin:0 auto; width:1100px; } 
+.cont_4 .bg .thumb li { position:relative; float:left; margin-left:20px; width:260px; border:1px solid #ccc; box-sizing:border-box; } 
+.cont_4 .bg .thumb li:first-child { margin-left:0; background-image:url(../image/fa2/fa1-3.jpg); } 
+.cont_4 .bg .thumb li:nth-child(2) { background-image:url(../image/fa2/fa2-3.jpg); } 
+.cont_4 .bg .thumb li:nth-child(3) { background-image:url(../image/fa2/fa3-3.jpg); } 
+.cont_4 .bg .thumb li:nth-child(4) { background-image:url(../image/fa2/fa4-3.jpg); } 
+.cont_4 .bg .thumb li a { display:block; height:90px; text-indent:-9999px; } 
+
+.cont_4 .bg .thumb li a:after { content:''; display:block; position:absolute; left:0; top:0; width:258px; height:90px; background-color:rgba(0,0,0,0.5); opacity:0; transition:all 0.4s; } 
+.cont_4 .bg .thumb li a:hover:after,
+.cont_4 .bg .thumb li a:focus:after,
+.cont_4 .bg .thumb li.on a:after { opacity:0.6; } 
+
+/* footer */
+.cont_5 { height:950px; background-color:#3b3b3b; } 
+footer { width:100%; height:200px; margin:0 auto; min-width:1200px; } 
+footer address { line-height:2; text-align:center; font-size:17px; color:#fff; } 
